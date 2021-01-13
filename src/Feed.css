@@ -1,0 +1,52 @@
+.feed{
+    flex: 0.6;
+    margin: 0 20px;
+}
+
+.feed_inputContainer {
+    background: #25282c;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feed__input {
+    border: 2px solid  rgb(167, 167, 167);
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: rgb(167, 167, 167);
+    padding-left: 15px ;
+    /*-webkit-transition: color 0.5s;*/
+}
+
+.feed__input:hover {
+    color: white;
+    border: 2px solid  white;
+}
+
+.feed__input > form {
+    display: flex;
+    width: 100%;
+    
+}
+
+.feed__input > form > input {
+    background: #26292c;
+    color: white;
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+.feed__input > form > button {
+    display: none;
+}
+
+.feed_inputOptions  {
+    display: flex;
+    justify-content: space-evenly;
+}
